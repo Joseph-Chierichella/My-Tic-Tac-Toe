@@ -50,7 +50,7 @@ int main()
 		turn++;
 		if (turn == 10)
 		{
-			cout << "Tie\n";
+			tie();
 			status = 4;
 			break;
 		}
@@ -69,9 +69,8 @@ int main()
 				break;
 			}
 		}
+		cout << termcolor::reset;
 	}
 	
-
-
 	return 0;
 }

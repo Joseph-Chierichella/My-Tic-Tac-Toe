@@ -30,4 +30,16 @@ void owins()
 	system("cls");
 }
 
+void tie()
+{
+	system("cls");
+	cout << "\n";
+	cout << "\n";
+	cout << termcolor::cyan;
+	cout << "       TIE!";
+	cout << termcolor::reset;
+	this_thread::sleep_for(chrono::milliseconds(2000));
+	system("cls");
+}
+
 #endif

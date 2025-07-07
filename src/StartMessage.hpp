@@ -18,7 +18,7 @@ void starting(int i)
 		cout << "Status Error\n";
 		this_thread::sleep_for(chrono::milliseconds(1000));
 	}
-	cout << termcolor::white;
+	cout << termcolor::reset;
 }
 
 
